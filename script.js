@@ -21,6 +21,7 @@ const getSum = () => {
     
     const totalPrice = document.createElement("td");
     totalPrice.innerHTML = `<strong>${total}</strong>`;
+	totalPrice.setAttribute("id", "ans")
 
     totalRow.appendChild(totalLabel);
     totalRow.appendChild(totalPrice);
